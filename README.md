@@ -4,7 +4,7 @@
 </h1>
 
 ## 🎯 Objetivos do desafio: 
-- Programar todos os dias para massificar o mais rápido possível o conhecimentoi HTML - CSS!
+- Programar todos os dias para massificar o mais rápido possível o conhecimento HTML - CSS !
 - As tecnologias que escolhi para estudar durante o desafio estão logo abaixo!
 - <a href="https://www.instagram.com/ronald.dev8/" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="instagram Ronald" height="20" width="20" /></a> <a href="https://www.linkedin.com/in/ronald-ss-4b7238143/" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="Linkedin Ronald Santos" height="20" width="20" /></a> 
 - Contato:  **ronaldcontact2019@gmail.com** <br>
