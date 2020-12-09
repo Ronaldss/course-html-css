@@ -66,7 +66,7 @@
       - [ ] http
       - [ ] url  -->
       
- ## Git e GitHub <img align="center" src="/github.webp" alt="git e github" height="30"/> 
+ ## Git e GitHub <img align="center" src="https://github.com/Ronaldss/course-html-css/blob/main/assets/img/js.png" alt="git e github" height="30"/> 
  
 - [ ] git e github
 
