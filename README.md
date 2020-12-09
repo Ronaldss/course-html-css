@@ -78,15 +78,15 @@
 
 |Dia|Estudos|
 | -------- | ----------------- |
-| 1 | Variables and data type |  |  
-| 2 | A evolução do JavaScript e do EcmaScript; Arrays; Objetcts Literals; Methods for Strings, arrays, objects, etc; Loops - for while, for...of, forEach, map |  |  
-| 3 | Conditinals(if, ternary & switch) & Functions and arrow functions|  |  
-| 4 |  |
-| 5 |  |
-| 6 |  |
-| 7 |  |
-| 8 |  |
-| 9 |  |
+| 1 | Olá, Mundo! Com muita teoria |  |  
+| 2 | Parágrafos, quebras de linhas, símbolos e emojis |  |  
+| 3 | Tudo sobre imagens para trabalhar profissionalmente |  |  
+| 4 |  Favicon |
+| 5 |  Hierarquia de Títulos |
+| 6 |  Semântica, negrito e itálico do jeito certo |
+| 7 |  Formatações adicionais em HTML, citações e códigos |
+| 8 |  Listas OL e UL, listas mistas e de definição |
+| 9 |  Links e âncoras em HTML5, links para downloads |
 | 10 |  |
 | 11 |  |
 
