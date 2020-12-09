@@ -19,7 +19,7 @@
 - [Algoritmos Javascript](https://github.com/trekhleb/javascript-algorithms)
 
 ## HTML5 - CSS3 <img src="https://github.com/Ronaldss/course-html-css/blob/main/assets/img/js.png"  alt="logo javascript" height="30"/> 
--<a href="https://www.notion.so/Java-Script-057ddbd40c61438391845690c66ca5fc" target="_blank">My notes</a>
+-<a href="https://www.notion.so/Ronald-dev-954e3b826e8644a88ea9a4368af0c360" target="_blank">My notes</a> 📚
 - [x] Olá, Mundo!
 - [x] Parágrafos, quebras de linhas, símbolos e emojis
 - [x] Imagens
