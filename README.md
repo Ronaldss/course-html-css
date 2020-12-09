@@ -18,33 +18,25 @@
 - [Ideias para praticar](https://github.com/florinpop17/app-ideas)
 - [Algoritmos Javascript](https://github.com/trekhleb/javascript-algorithms)
 
-## JavaScript <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/js.png"  height="30"/> 
+## HTML5 - CSS3 <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/js.png"  height="30"/> 
 -<a href="https://www.notion.so/Java-Script-057ddbd40c61438391845690c66ca5fc" target="_blank">My notes</a>
-- [x] Variables and data type
-- [x] <a href="https://www.notion.so/Curso-em-video-JavaScript-762c7cd4ca7c4e18b2563c1d48bf0d0e" target="_blank">A evolução do JavaScript e do EcmaScript</a>
-- [x] Arrays
-- [x] Objetcts Literals
-- [x] Methods for Strings, arrays, objects, etc
-- [x] Loops - for while, for...of, forEach, map
-- [x] Conditinals(if, ternary & switch)
-- [x] Functions and arrow functions
-- [x] Template literals
-- [x] <a href="https://stringproject.netlify.app/" target="_blank">String Project</a>
-- [x] Operadores: aritméticos, atribuições, relacionais, logicos, ternario
-- [x] DOM
-- [x] Events JavaScript
-- [x] for, while, do while
-- [x] forEach
-- [x] insertAdjacentHTML()
-- [x] setTimeout()
-- [x] Window setInterval() Method
-- [x] Math.floor()
-- [x] LocalStorage
-- [x] join() method
-- [x] Math.random()
-- [x] Intersection Observer API JavaScript
+- [x] Olá, Mundo!
+- [x] Parágrafos, quebras de linhas, símbolos e emojis
+- [x] Imagens
+- [x] Favicon
+- [x] Hierarquia de Títulos
+- [x] Semântica
+- [x] Negrito e itálico do jeito certo
+- [x] Formatações adicionais em HTML
+- [x] Citações e Códigos
+- [x] Listas OL e UL
+- [x] Listas mistas e de definição
+- [x] Links e âncoras em HTML5
+- [x] Links para download
+- [x] Desafios
 
-## Python  
+
+## Javascript  
 <!-- -<a href="https://www.notion.so/Java-Script-057ddbd40c61438391845690c66ca5fc" target="_blank">My notes</a> -->
 - [x] introduction
 
@@ -74,7 +66,7 @@
       - [ ] http
       - [ ] url  -->
       
- ## Git e GitHub <img align="center" src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/github.webp" alt="git e github" height="30"/> 
+ ## Git e GitHub <img align="center" src="/github.webp" alt="git e github" height="30"/> 
  
 - [ ] git e github
 
