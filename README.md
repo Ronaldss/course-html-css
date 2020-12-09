@@ -18,7 +18,7 @@
 - [Ideias para praticar](https://github.com/florinpop17/app-ideas)
 - [Algoritmos Javascript](https://github.com/trekhleb/javascript-algorithms)
 
-## HTML5 - CSS3 <img src="https://github.com/laiananardi/100daysofcode/blob/master/img_readme/js.png"  height="30"/> 
+## HTML5 - CSS3 <img src="https://github.com/Ronaldss/course-html-css/blob/main/assets/img/js.png"  alt="logo javascript" height="30"/> 
 -<a href="https://www.notion.so/Java-Script-057ddbd40c61438391845690c66ca5fc" target="_blank">My notes</a>
 - [x] Olá, Mundo!
 - [x] Parágrafos, quebras de linhas, símbolos e emojis
