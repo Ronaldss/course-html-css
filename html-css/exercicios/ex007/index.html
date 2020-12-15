@@ -65,6 +65,36 @@
             H<sub>2</sub>O
         </p>
         <hr>
+        <p>
+            <h3>Usando a tag &lt;code&gt; é possível mostrar um trecho de código na tela:</h3>
+            <pre><code>
+                import React, { useState } from "react";
+                import logo from "./classe.png";
+                import "./App.css";
+
+                import { Link } from "react-router-dom";
+
+                function App() {
+                    const [start, setStart] = useState(false);
+                    const [playerName, setPlayerName] = useState("");
+                    const [count, setCount] = useState(1);
+                    const [players, setPlayers] = useState([]);
+
+                function begin() {
+                    setStart(!start);
+                }
+
+                function handleNome(e) {
+                    setPlayerName(e.target.value);
+                }
+
+                function add(e) {
+                    e.preventDefault();
+                if (!playerName) return;
+                }
+                }
+            </code></pre>
+        </p>
     </p>
 </body>
 </html>
