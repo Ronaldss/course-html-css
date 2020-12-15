@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://raw.githubusercontent.com/Ronaldss/course-html-css/main/assets/img/html5.png" type="image/x-icon">
-    <title>Semântica na HTML5 é importante</title>
+    <title>Semântica na HTML5 é importante - Formatação de Textos</title>
 </head>
 <body>
     <!-- 
@@ -30,41 +30,50 @@
         
         Analisando a frase acima percebemos que uma palavra pode ter FORMA e SIGNIFICADO, e que a SEMÂNTICA dá mais valor ao significado.
     -->
-    <p>
-        <P>* Endereço:<address>  Rua do Belo Sol, 321 - Arvore Linda - RS</address></P>
+    <h1>Formatação de Textos</h1>
+    <div>
+        <h3>&lt;address&gt;</h3>
+        <p>
+            * Endereço:<address>  Rua do Belo Sol, 321 - Arvore Linda - RS</address>
+        </p><hr>
+        <h3>&lt;strong&gt;</h3>
         <p>
             * Aqui segue um teste de <strong>força e potência</strong>no HTML5. 
             Viva a semântica. Aparecerá em <strong>negrito</strong>. (focado totalmente no significado das tags.)
-        </p>
+        </p><hr>
+        <h3>&lt;em&gt;</h3>
         <p>
             <em>
                 * Já a tag &lt;em&gt; significa que queremos dar ênfase (do Inglês emphasis) ao termo.
                     Logo, ele aparecerá em itálico. 
             </em>
-        </p>
+        </p><hr>
+        <h3>&lt;tag&gt;</h3>
         <p>
             * Teste de impressão de tags:
             &lt;p&gt; ou &lt;h1&gt;
-        </p>
+        </p><hr>
+        <h3>&lt;mark&gt;</h3>
         <p>
             * Agora <mark>marcando um texto</mark> considerado valioso nos estudos.
-        </p>
+        </p><hr>
+        <h3>&lt;del&gt;</h3>
         <p>
             * A tag &lt;strike&gt; foi depreciada no HTML5 e a tag &lt;del&gt; está para ela com o significado que <del>o texto está ali,
             pode até ser lido, mas deve ser desconsiderado.</del> 
-        </p>
+        </p><hr>
+        <h3>&lt;ins&gt;</h3>
         <p>
             Inserindo um <ins>texto que deve ser notado com atenção</ins>, mostrando um significado de importância. 
             A tag &lt;ins&gt; ficou no lugar da tag &lt;u&gt;.
-        </p>
-        <hr>
+        </p><hr>
+        <h3>&lt;sub&gt; e &lt;sup&gt;</h3>
         <p>
             *   Digitando com as tags &lt;sub&gt; e &lt;sup&gt;<br>
             R<sub>onald</sub> S<sup>antos</sup><br>
             x<sup>2</sup><br>
             H<sub>2</sub>O
-        </p>
-        <hr>
+        </p><hr>
         <p>
             <h3>Usando a tag &lt;code&gt; é possível mostrar um trecho de código na tela:</h3>
             <pre><code>
@@ -98,12 +107,10 @@
         <hr>
         <p>
             <h3>Citações</h3>
-            <h4>Citação simples</h4>
+            <ins><h4>Citação simples:</h4></ins>
             <q>Aqui temos uma citação simples e resumida</q>
-
-            <h4>
-                Citação em bloco
-            </h4>
+            <ins><h4>Citação em bloco:</h4>
+            </ins>
             <p>
                 Aqui segue uma citação em bloco, pode-se usar o parâmetro 'cite' dentro da tag &lt;blockquote&gt;
                 para direcionar em link para uma página referente. Note que esta citação tem um afastamento de margem.
@@ -120,6 +127,6 @@
             Eu estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> para criar sites.
         </p>
         <hr>
-    </p>
+    </div>
 </body>
 </html>
