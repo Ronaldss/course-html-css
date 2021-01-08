@@ -17,5 +17,24 @@
         <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
         <img src="imagens/imagem-g.png" alt="imagem flexível">
     </picture>
+
+    <h1>Reproduzindo áudios</h1>
+    <p>
+        Vamos aprender a reproduzir áudi em HTML5.
+    </p>
+    <hr>
+    <p><strong>Primeira forma:</strong></p>
+    <audio src="midia/faturar.wav" controls autoplay></audio>
+    <audio src="midia/dog.wav" controls></audio>
+    <audio src="midia/delete.wav" controls></audio>
+    <hr>
+    <p><strong>Segunda forma:</strong></p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/faturar.wav" type="audio/wav">
+        <source src="midia/dog.wav" type="audio/wav">
+        <source src="midia/delete.wav" type="audio/wav">
+        <p>Erro ao tentar reproduzir áudio</p>
+        <a href="midia/faturar.wav">Click aqui para baixar o arquivo MP3.</a>
+    </audio>
 </body>
 </html> 
