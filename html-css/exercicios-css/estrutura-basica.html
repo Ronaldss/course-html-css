@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<div class="container">
+<head>
+	<meta charset="UTF-8">
+	<title>Estrutura HTML5</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div>
+	<header>
+		<h1>Cadastro</h1>
+	</header>
+	<p>Parágrafo lindo iniciado...</p>
+	<div id="form">
+		<form action="processa.php" method="post">
+			<label><strong>Nome</strong></label>
+			<input type="text" placeholder="Digite aqui seu nome" name="Text"><br>
+			<label><strong>Senha</strong></label>
+			<input type="password" name="Senha"><br>
+			<label><strong>Oculto</strong></label>
+			<input type="text" value="msg secreta" name="infor_secreta" placeholder="Funcionou"><br>
+			
+			<label>Naipe</label>
+			<select name="selecao">
+				<option value="clarinete">Clarinete</option>
+				<option value="violino">Violino</option>
+				<option value="sax">Sax</option>
+			</select><br>
+			<hr>
+			<label><strong>Sexo</strong></label><br>
+				<input type="radio" name="sexo" value="1">Mulher<br>
+				<input type="radio" name="sexo" value="2">Homem
+			</label><br>
+			<hr>
+			<label><strong>Teste musical semanal</strong></label><br>
+				<input type="checkbox" name="teste" value="1" checked>Adorador por excelência<br>
+				<input type="checkbox" name="teste" value="2">Rude cruz<br>
+				<input type="checkbox" name="teste" value="3">7 trombetas
+			</label><br>	
+			<input type="submit" value="Enviar" name="submit">
+		</form>
+	</div>
+	<div id="links">
+		<img src="../../assets/img/cadastro-logo.png" alt="img error" />
+		<a href="https://google.com">Google</a>
+		<button>Click aqui</button>
+	</div>
+	<footer>
+		<p>Aqui é o Footer</p>
+	</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+		background: #654321;
+		color: #fff;
+	}
+img {
+		/*border:solid 2px #fff; */
+		border-radius: 25%;
+	}
+a {
+	font-size: 20px;
+}
+form {
+	font-family: "comic sans ms";
+	padding: 5px;
+	color: #000;
+}
+header {
+	background-color: #2A2F32;
+	height: 100px;
+}
+#form {
+	background-color: #2CCFCA;
+	min-height: 500px;
+	width: 70%;
+	float: left;
+}
+#links {
+	background-color: #cc8;
+	min-height: 500px;
+	width: 30%;
+	float: right;
+}
+footer {
+	clear: both;
+	height:50px;
+	background-color: #2A2F32;
+	border-top: 2px solid #fff;
+	padding:15px;
+	font-size: 2ren;
+}
+p {
+	background-color: #000;
+	color: #0f0;
+	padding: 1px;
+	border-top: solid 1px #fff;
+	border-bottom: solid 1px #fff;
+}
+.container{
+	width: 960px;
+	margin: 0 auto 0 auto;
+	
+}
