@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+    padding: 0;
+    font-family: Helvetica, arial;
+}
+
+body {
+		background: #654321;
+		color: #fff;
+}
+
+img {
+    /*border:solid 2px #fff; */
+    width:60px;
+    border-radius: 25%;
+}
+
+a {
+	font-size: 20px;
+}
+
+form {
+	font-family: "comic sans ms";
+	padding: 5px;
+	color: #000;
+}
+
+header {
+	background-color: #2A2F32;
+    height: 60px;
+    padding: 10px;
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 5px 6px 3px #111111;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+p {
+  color: #fff;
+  font-size: 20px;
+  padding: 1px;
+  /* border-top: solid 1px #fff;
+  border-bottom: solid 1px #fff; */
+}
+
+footer {
+  clear: both;
+  height:50px;
+  background-color: #2A2F32;
+  border-top: 2px solid #fff;
+  text-align: center;
+  padding:10px;
+}
+
+#div-principal {
+  background-image: url('../../assets/img/musicos.png');
+  /* background-image: linear-gradient(to right, #d71d8a , #b729c2); */
+  min-height: 600px;
+  padding: 50px 0 0 0;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+.efeito {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px 0 50px 0;
+}
