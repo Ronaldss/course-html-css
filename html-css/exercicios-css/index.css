@@ -56,10 +56,32 @@ footer {
 }
 
 #div-principal {
+    clear: both;
   background-image: url('../../assets/img/musicos.png');
   /* background-image: linear-gradient(to right, #d71d8a , #b729c2); */
   min-height: 600px;
   padding: 50px 0 0 0;
+}
+
+#logo {
+    float:left;
+}
+
+#menu {
+    float: right;
+    line-height: 60px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #ccc;
+    padding: 30px 5px;
+}
+
+#menu a:hover {
+    background-color: #4c575e;
+    color: #fff;
+    border-radius: 2px;;
 }
 
 .container{
