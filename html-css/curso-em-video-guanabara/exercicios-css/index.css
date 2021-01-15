@@ -10,7 +10,6 @@ body {
 }
 
 img {
-    /*border:solid 2px #fff; */
     width:60px;
     border-radius: 25%;
 }
@@ -42,8 +41,6 @@ p {
   color: #fff;
   font-size: 20px;
   padding: 1px;
-  /* border-top: solid 1px #fff;
-  border-bottom: solid 1px #fff; */
 }
 
 footer {
@@ -56,9 +53,8 @@ footer {
 }
 
 #div-principal {
-    clear: both;
+  clear: both;
   background-image: url('../../assets/img/musicos.png');
-  /* background-image: linear-gradient(to right, #d71d8a , #b729c2); */
   min-height: 600px;
   padding: 50px 0 0 0;
 }
@@ -85,10 +81,16 @@ footer {
 }
 
 .container{
-	width: 960px;
+	width: 70%;
 	margin: 0 auto;
+	background: green;
+	
+	@media(max-width: 500px) {
+		
+	}
 }
+
 .efeito {
-    background-color: rgba(0, 0, 0, 0.5);
+    /*background-color: rgba(0, 0, 0, 0.2);*/
     padding: 50px 0 50px 0;
 }
