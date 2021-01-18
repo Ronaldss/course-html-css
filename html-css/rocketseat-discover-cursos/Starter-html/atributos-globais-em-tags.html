@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Atributos Globais</title>
+</head>
+<body>
+<!--
+	Atributos Globais mais utilizados
+
+	- class
+	- contenteditable
+	- daata-*
+	- hidden
+	- id
+	- style
+	- tabindex
+	- tittle
+-->
+
+	<!-- contenteditable permite fazer alteração no texto direto na página. -->
+	<!-- style usado para estilizar -->
+	<div class="carrinho" contenteditable="true" id="cart1" style="color:red">
+		Ronald
+	</div>
+
+	<!-- data-* muito usado com o js por exemplo -->
+	<!-- id, usar apenas um por página -->
+	<div class="carrinho" data-qualquerNomeAqui="coisinha" id="cart2">
+		dos
+	</div>
+	
+	<!-- hidden vai esconder uma tag -->
+	<!-- title serve para definir um titulo -->
+	<div class="carrinho" title="tpitulo coisinha" hidden>
+		Santos
+	</div>
+	
+	<!-- tabindex para sequenciar o tab do teclado -->
+	<div tabindex="1">
+		Coisa 1
+	</div>
+	<div tabindex="3">
+		Coisa 3
+	</div>
+	<div tabindex="2">
+		Coisa 2
+	</div>
+</body>
+</html>
