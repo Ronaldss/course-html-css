@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Complexas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color:darkolivegreen
+        }
+        table {
+            background-color: #000;
+            color: #fff;
+        }
+        th {
+            background-color: #923CC2;
+        }
+        td {
+            background-color: #4455f2;
+        }
+    </style> 
+</head>
+<body>
+
+    <!-- 
+        2 Lojas
+            Quantos produtos foram produzidos, quantos
+            vendidos e agrupados por nome dos produtos.
+     -->
+
+    <table>
+        <caption>Tabela complexa</caption>
+        <thead>
+            <tr>
+                <th rowspan="2"></th>                   <!-- Oupar duas linhas -->
+                <th colspan="2">Loja 1</th>             <!-- Ocupar duas linhas -->
+                <th colspan="2">Loja 2</th>             <!-- Ocupar duas linhas -->
+            </tr>
+            <tr>
+                <th></th>
+                <th>Produzidos</th>
+                <th>Vendidos</th>
+                <th>Produzidos</th>
+                <th>Vendidos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr></tr>
+            <tr>
+                <td></td>
+                <td>.</td>
+                <td>.</td>
+            </tr>
+            <tr>
+                <td>P1</td>
+                <td>.</td>
+                <td>.</td>
+            </tr>
+            <tr>
+                <td>P2</td>
+                <td>.</td>
+                <td>.</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
