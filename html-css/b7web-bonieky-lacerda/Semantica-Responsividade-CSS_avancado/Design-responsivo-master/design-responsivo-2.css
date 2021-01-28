@@ -1,0 +1,62 @@
+/* Folha de estilo Design Resposivo 2 */
+
+body{
+			margin:0;
+		}
+		.topo{
+			width:100%;  /*O topo vai esticar*/
+			max-width:800px; /*Mas vai esticar até aqui*/
+			height:100px;
+			margin:auto;
+		}
+		.logo{
+			width:50%;
+			height:100px;
+			float:left;
+			background-color:#eee;
+		}
+		.menu{
+			width:50%;
+			height:100px;
+			float:right;
+			background-color:#ddd;
+		}
+		.corpo{
+			width:100%;
+			max-width:800px;
+			height:200px;
+			margin:auto;
+			background-color:#ccc;
+		}
+		.rodape{
+			width:100%;
+			max-width:800px;
+			height:100px;
+			margin:auto;
+			background-color:red;
+		}
+		@media only screen and (max-width:500px){
+			.topo{
+				height:200px;
+			}
+			.logo{
+				width:100%;
+			}
+			.menu{
+				width:100%;
+			}
+			.todoResto {
+				height: 300px;
+			}
+			.corpo{
+				width:50%;
+				float: left;
+			}
+			.rodape {
+				background-color: #0f0;
+				width: 50%;
+				float: right;
+				height: 200px;
+			}
+		}
+}

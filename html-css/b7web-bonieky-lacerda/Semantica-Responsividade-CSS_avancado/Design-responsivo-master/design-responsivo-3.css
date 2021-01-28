@@ -1,0 +1,31 @@
+/* Folha de estilo Design Responsivo 3 */
+body{
+	margin:0;
+}
+p{
+	padding:10px;
+}
+h3{
+	padding-left:10px;
+}
+.topo{
+	width:100%;
+	height:100px;
+	background:orange;	
+	line-height:100px; 			/* Alinha o texto no meio usando a referencia da altura*/
+	text-align:center;
+}
+.cidade{
+	width:25%;
+	float:left;
+}
+@media only screen and (min-width:550px) and (max-width:800px) {
+	.cidade{
+		width:50%;
+	}
+}
+@media only screen and (max-width:550px){
+	.cidade{
+		width:100%;
+	}
+}
