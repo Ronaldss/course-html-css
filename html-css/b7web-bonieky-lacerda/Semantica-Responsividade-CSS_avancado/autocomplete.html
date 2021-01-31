@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoCompete</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+    <h1>Required Input</h1>
+  <form method="POST">
+
+<!--
+
+    Trabalhando com HTML5 no autocomplete,
+
+    usa-se p/ desabilitart atributo autocomplete="off"
+
+    e para habilitar autocomplete="on"
+
+-->
+
+    Usuario:<br>
+    <input type="text" name="usuario" id="usuario" placeholder="Nome do usuário" autocomplete="off"><br><br>
+
+    Senha:<br>
+    <input type="password" name="senha" required><br><br>
+
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>
