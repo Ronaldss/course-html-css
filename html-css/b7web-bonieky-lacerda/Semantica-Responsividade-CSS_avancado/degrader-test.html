@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .degrade {
+            width: 150px;
+            height:150px;
+            background-color:bisque;
+            text-align: center;
+            line-height:150px;
+            border: solid 1px #ddd;
+            font-weight: bold;
+
+            background:linear-gradient(-45deg, rgb(108, 99, 8), rgb(242, 255, 0), rgb(108, 99, 8));
+            /* Medida preventiva contra versões inferiores a 15 nos navegadores Firefox Mozilla, Opera e Safare*/
+            /* background:-moz-linear-gradient(white, #ddd, white);
+            background:-o-linear-gradient(white, #ddd, white);
+            background:-webkit-linear-gradient(white, #ddd, white); */
+        }
+    </style>
+</head>
+<body>
+    <div class="degrade">
+      <span>Acesso liberado</span>
+    </div>
+</body>
+</html>
