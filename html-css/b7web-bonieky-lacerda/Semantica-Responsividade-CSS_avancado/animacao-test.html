@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Animação</title>
+    <style>
+      @keyframes cores{
+          0%{background-color:red;top:0;left:0;transform:rotate(0deg);}
+          25%{background-color:green;top:0;left:25%;transform:rotate(25deg);}
+          50%{background-color:yellow;top:25%;left:25%;transform:rotate(50deg);}
+          75%{background-color:aqua;top:25%;left:0;transform:rotate(75deg);}
+          100%{background-color:purple;top:0;left:0;transform:rotate(0deg);}
+        }
+      body {
+        margin: 0;
+        background-color: rgb(0, 0, 0);
+      }  
+      .animacao{
+        font-weight: bold;
+        text-align: center;
+        line-height: 150px;
+
+        width: 150px;
+        height: 150px;
+        background-color:rgb(18, 174, 145);
+        
+        position:absolute;
+        animation-name: cores;
+        animation-duration: 5s;
+        /* animation-delay: 2s; */
+        animation-iteration-count: 3; /* Quantidade de vezes que irá repetir */
+      }
+    </style>
+</head>
+<body>
+  <div class="animacao">RONALD</div>
+</body>
+</html>
