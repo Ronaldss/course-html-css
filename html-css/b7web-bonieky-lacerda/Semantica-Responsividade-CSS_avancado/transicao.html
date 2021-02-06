@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transição</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        .trasicao {
+            width:150px;
+            height: 150px;
+            background-color: #3af;
+            margin: auto;
+            margin-top: 100px;
+            transition: all 1s linear;
+        }
+        .trasicao:hover {
+            border-radius: 75px;
+        }
+        .trasicaoLink {
+            color: #000;
+            transition: all 1s linear;
+        }
+        .trasicaoLink:hover {
+            background-color:#000;
+            color: #0f0;
+        }
+    </style>
+</head>
+<body onload="alert('Seja Bem Vindo(a)!')">
+    <h1>Estudando CSS3 - Transição</h1>
+    <div class="trasicao"></div>
+
+    <h2>Exemplo de transição com link</h2>
+    <a class="trasicaoLink">Click aqui</a>
+</body>
+</html>
