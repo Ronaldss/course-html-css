@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordWrap</title>
+    <style>
+      body {
+        margin: 0;
+        margin-left: 50px;
+      }
+      .divEstourada {
+        width: 150px;
+        height: 150px;
+        border: 1px solid #000;
+      }
+      .wordWrapOK {
+        width: 150px;
+        height: 150px;
+        border: 1px solid #000;
+        word-wrap: break-word;
+      }
+      .wordWrapERR {
+        width: 150px;
+        height: 150px;
+        border: 1px solid #000;
+        overflow: hidden;
+      }
+      
+    </style>
+</head>
+<body>
+<h1>WordWrap</h1>
+  <p>
+    Propriedade WordWrap é utilizada quando o texto
+    estoura a div. Usando a propriedade:
+    <code>word-wrap:break-word</code> o texto que estoura a div é mantido dentro 
+    da div de forma visual.
+  </p>
+  <p>
+    Na sendo necessário o uso da propriedade:
+    <code>overflow: hidden;</code> para esconder o estouro da div.
+    A solução correta seria usar, <code>word-wrap: break-word;</code>
+  </p>
+  <hr>
+  <h2>DIV estourada por texto</h2>
+  <div class="divEstourada">
+    Lorem ipsum dolor sit amet consectetur adipisicing eldddddddddddddddddddddddddddddddddit. Rerum, impedit cum totam ullam animi accusamus inventore cupiditate iste quisquam excepturi odit. Dolor neque quidem, eos cupiditate itaque quas vel impedit?
+  </div>
+  <br><br><br><br><br><br><br><hr>
+
+  <h2>&#x1F7E2 Forma correta de fazer:</h2>
+  <h3>Propriedade "word-wrap: break-word;"</h3>
+  <div class="wordWrapOK">
+    Lorem ipsum dolor sit amet consectetur adipisicing eldddddddddddddddddddddddddddddddddit. Rerum, impedit cum totam ullam animi accusamus inventore cupiditate iste quisquam excepturi odit. Dolor neque quidem, eos cupiditate itaque quas vel impedit?
+  </div>
+  <br><br><br><br><br><br><br><hr>
+  
+  <h2>&#x274C Forma incorreta de fazer:</h2>
+  <h3>Propriedade "overflow: hidden;"</h3>
+  <div class="wordWrapERR">
+    Lorem ipsum dolor sit amet consectetur adipisicing eldddddddddddddddddddddddddddddddddit. Rerum, impedit cum totam ullam animi accusamus inventore cupiditate iste quisquam excepturi odit. Dolor neque quidem, eos cupiditate itaque quas vel impedit?
+  </div>
+</body>
+</html>
