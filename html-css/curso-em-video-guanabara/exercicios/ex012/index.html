@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML</title>
+    <style>
+        body {
+            background-color:#000;
+            color:#fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <h2>Testando com as extensões mp4, webm e m4v.</h2>
+    <p>Estes vídeos estão hospedados no meu servidor.</p>
+
+
+    <video width="200" poster="imagens/img.png" controls>
+        <source src="midia/Pexels-videos.mp4" type="video/mp4">
+        <source src="midia/Pexels-Videos-1.webm" type="video/webm">
+        <source src="midia/Pexels-Videos-1.m4v" type="video/mp4">
+        <p>Seu navegador não é compatível com reprodução de vídeos!</p>
+    </video>
+    
+</body>
+</html>
