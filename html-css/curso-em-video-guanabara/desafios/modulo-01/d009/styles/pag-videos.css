@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+.wrapper {
+  margin: auto;
+  width: 80%;
+}
+.wrapper a {
+  text-decoration: none;
+  color: #fff;
+}
+iframe {
+  margin-bottom: 25px;
+}
+.voltar {
+  margin-top:25px;
+}
