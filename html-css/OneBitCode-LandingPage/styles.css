@@ -155,6 +155,31 @@ h2 {
 		width: fit-content;
 }
 
+/* Rodape */
+
+footer {
+		border-bottom: 0;
+		padding: 1rem 1.25rem 4rem;
+}
+
+footer nav a {
+		display: block;
+		padding-left:0;
+}
+
+.newslatter-form label {
+		display: block;
+		font-size: 1.5rem;
+}
+
+.newslatter-form input {
+		border: 2px solid var(--color-black);
+		box-shadow: 4px 4px 0 var(--color-black);
+		font-size: 1.5rem;
+		padding: .5rem;
+		width: 100%;
+}
+
 .mt-1 {
 		margin-top: 1rem;
 }
