@@ -242,3 +242,18 @@ header nav,
 header .button {
 		margin: 0;
 }
+
+@media screen and (min-width: 72rem) {
+		.container {
+				display: flex;
+				align-items: center;
+				margin: 0 auto;
+				max-width: 72rem;
+		}
+
+		.container.row-reverse {
+				flex-direction: row-reverse;
+		}
+}
+
+
