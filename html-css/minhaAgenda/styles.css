@@ -2,10 +2,17 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 200px;
-    background-color: blueviolet;
+  background-color: blueviolet;
 }
 .quadrado {
   border: solid black 1px;
   padding: 3px;
 }
   
+body {
+	background-color: black;
+	color: white;
+}
+.outraSemana {
+	background-color: #0000CD;
+}
